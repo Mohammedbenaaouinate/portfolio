@@ -1,0 +1,242 @@
+*{
+    scroll-behavior: smooth;
+    color: white;
+}
+body{
+    background:black;
+    
+}
+/* Debut Header*/
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+header .nav_items ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 18px;
+    font-weight: bold;
+} 
+
+li a{
+    text-decoration: none;
+    color: white; 
+}
+header div li a:hover{
+    color: blue;
+}
+
+.nom{
+    display: flex;
+    align-items: center;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+}
+#spanname{
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Fin Header*/
+/*Debut Mian*/
+/*Debut Home*/
+.global1{
+    color: white;
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    column-gap: 100px;
+    font-size: 20px;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+.presentation1 span{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.imagePresentationimg{
+    border-radius: 50px;
+}
+/*Fin Home*/
+/* Debut About Me*/
+.Aboutme{
+     color: white;
+     display: grid;
+     grid-template-columns: 40% 1fr;
+     column-gap: 100px;
+     font-size: 20px;
+     padding: 70px;
+     line-height: 1.5em;
+     background-color: #111;
+}
+.h1aboutme{
+    color: blue;
+    text-align: center;
+    font-family: cursive;
+
+}
+.imgmacron{
+    max-width: 100%;
+    border-radius: 20px;
+}
+#h2abouteme{
+    text-align: center;
+    font-family: cursive;
+}
+#h2abouteme span{
+    color: aquamarine;
+}
+.aboutme2{
+    max-width: 100%;
+}
+#para{
+    text-align: center;
+}
+.aboutme21{
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    column-gap: 10px;
+    font-size: 20px;
+    line-height: 1.5em;
+    flex-wrap: wrap;
+}
+.aboutme2 span{
+    color: blue;
+}
+/* Fin About Me*/
+/*Skills Debut*/
+
+.gestionimges{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    column-gap: 5px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+}
+i{
+    font-size: 100px;
+}
+/*Skills fin*/
+/* Debut Certificat*/
+.certifiacats{
+    position: relative;
+    height: 520px;
+}
+.certifiacats div{
+    /* max-width: 100%; */
+    position: absolute;
+    left: 25%;
+}
+.certifiacats div img{
+    max-width: 100%;
+
+} 
+#lesicons{
+    /* margin: auto; */
+    text-align: center;
+    margin-top: 0%;
+}
+#lesicons i{
+  font-size: 30px;
+  margin-right: 2%;
+  border: 1px solid blue;
+  padding: 15px;
+}
+#lesicons i:hover{
+    background-color: blue;
+}
+/* .icons i{
+    font-size: 20px;
+    margin: auto;
+    border: 2px solid aqua;
+    background-color: blue;
+    padding: 4px;
+} */
+.active{
+    opacity: 100% !important;
+}
+/* Formulaire */
+form{
+    padding: 10px;
+}
+
+.formpartie1{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20%;
+    /* justify-content: space-between; */
+}
+.formpartie2 input{
+    width: 96%;
+    
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: #111;
+}
+
+.divprincipale{
+    margin-left: 26%;
+    margin-right: 20%;
+    
+}
+.divprincipale form div{
+       margin-bottom: 20px;
+}
+.divprincipale input{
+        padding: 10px;
+        border: 2px solid gray;
+        border-radius: 20px;
+        background-color: #111;
+}
+.buton{
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color:blue; */
+    padding: 15px;
+    width: 120px;
+}
+.buton input:hover{
+    background-color: aqua;
+}
+/* Footer */
+footer .social-media{
+    display: flex;
+    justify-content: center;
+}
+
+footer i{
+    font-size: 30px;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid white;
+    margin-right: 2%;
+
+}
+footer i:hover{
+    background-color: blue;
+}
+footer a{
+    padding: 10px;
+}
+.copyright span{
+    color: blue;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
